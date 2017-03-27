@@ -1,0 +1,64 @@
+#intro-sec{
+    background: url(../media/home/back1.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    padding-top:100px;
+}
+#intro-row{
+    margin-bottom: 0;
+}
+#intro-samir{
+    width: 85%; 
+    margin-top: 70px;
+    float: left;
+}
+#intro-text{
+    margin-top: -40px;
+}
+#intro-text h1{
+    font-size: 5rem;
+}
+.credits{
+    height: 50px;
+    margin-top: 35px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.credits h5{
+    display: inline-block;
+    margin-right: 10px;
+}
+.credits img{
+    position: relative;
+    top:10px;
+}
+
+
+
+#tracks-sec{
+    color: #fff;
+}
+#tracks-title{
+    padding-top: 70px;
+}
+#tracks-sec .track-block img{
+    width: 55%;
+}
+.big-span{
+    font-size: 4.4rem;
+    margin-left: 10px;
+}
+
+
+
+#join-sec h1{
+    font-size: 5rem;
+}
+#join-sec h3{
+    font-size: 2.3rem;
+}
+#join-sec h3 img{
+    width: 60px;
+    position: relative;
+    top:15px;
+}
