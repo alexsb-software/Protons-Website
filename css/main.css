@@ -1,0 +1,19 @@
+@font-face {
+    font-family: arc;
+    src: local('arc'), url(../fonts/Arciform.otf) format('opentype');
+}
+:root{
+    font-size: 16px
+}
+body{
+    font-family: arc, sans-serif;
+}
+
+/*   NAV   */
+nav ul a{
+    font-size: 1.5rem;
+}
+#brand-logo img{
+    width:130px;
+    margin: 7px 0 0 50px;
+}
