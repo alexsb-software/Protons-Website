@@ -8,6 +8,8 @@
     <!-- use CDN in production mode -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="vendor/css/materialize.min.css">
+    <link rel="stylesheet" href="vendor/css/slick.css">
+    <link rel="stylesheet" href="vendor/css/slick-theme.css">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
@@ -67,15 +69,78 @@
             </div>
         </div>
         <div class="row">
-            <a href="#" class="center-block">More details ..</a>
+            <a href="#" id="tracks-btn" class="center-block blue-text center-align hoverable">More details ..</a>
         </div>
     </section>
     <section id="join-sec" class="blue-text">
-        <div class="row">
+        <div class="row join-title">
             <h1 class="col m7 offset-m1 s8 offset-s2">Why to join protons ?</h1>
-            <h3 class="col m7 offset-m1 s8 offset-s2">Regardles that the <img src="media/home/earth.png"> needs YOU,</h3>
+            <h3 class="col m7 offset-m1 s8 offset-s2">Regardles that the <img id="small-earth" src="media/home/earth.png"> needs YOU,</h3>
+        </div>
+        <div class="row" id="join-blocks">
+            <div class="join-block col m2 offset-m1 s12 center-align">
+                <img src="media/home/sessions.png">
+                <h4>Technical Sessions</h4>
+            </div>
+            <div class="join-block col m2 s12 center-align">
+                <img src="media/home/community.png">
+                <h4>Community</h4>
+            </div>
+            <div class="join-block col m2 s12 center-align">
+                <img src="media/home/workshops.png">
+                <h4>Workshops</h4>
+            </div>
+            <div class="join-block col m2 s12 center-align">
+                <img src="media/home/competition.png">
+                <h4>Competition</h4>
+            </div>
+            <div class="join-block col m2 s12 center-align">
+                <img src="media/home/fun.png">
+                <h4>Fun <span class="wohoo"> {WOHOO<img src="media/home/wohoo.png"> }</span></h4>
+            </div>
+        </div>
+        <div class="row">
+            <h5 class="m8 offset-m2 center-align join-line">And we guarantee that your life will be <div id="flip">changed</div></h5>
         </div>
     </section>
+    <section id="slider-sec" class="grey lighten-2">
+        <div class="row center-align slick-cont">
+            <div id="slick">
+                <div class="slick-block">
+                    <img src="media/home/nermeen.png" class="center-block">
+                    <p class="center-block">"In Protons, you hardly forget what you have learned, because the learning process is based on a mix between theoretical knowledge and practical experience and this is what Education should be."  </p>
+                    <h4>Nermeen Tarek</h4>
+                    <h5>ex-project manager</h5>
+                </div>
+                <div class="slick-block">
+                    <img src="media/home/nermeen.png" class="center-block">
+                    <p class="center-block">"In Protons, you hardly forget what you have learned, because the learning process is based on a mix between theoretical knowledge and practical experience and this is what Education should be."  </p>
+                    <h4>Nermeen Tarek</h4>
+                    <h5>ex-project manager</h5>
+                </div>
+                <div class="slick-block">
+                    <img src="media/home/nermeen.png" class="center-block">
+                    <p class="center-block">"In Protons, you hardly forget what you have learned, because the learning process is based on a mix between theoretical knowledge and practical experience and this is what Education should be."  </p>
+                    <h4>Nermeen Tarek</h4>
+                    <h5>ex-project manager</h5>
+                </div>
+                <div class="slick-block">
+                    <img src="media/home/nermeen.png" class="center-block">
+                    <p class="center-block">"In Protons, you hardly forget what you have learned, because the learning process is based on a mix between theoretical knowledge and practical experience and this is what Education should be."  </p>
+                    <h4>Nermeen Tarek</h4>
+                    <h5>ex-project manager</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <img class="center-block" src="media/protons-black.png">
+        </div>
+        <div class="row">
+            <h6 class="center-align">© IEEE AlexSB | Software Development Committee</h6>
+        </div>
+    </footer>
 
 
 
@@ -83,5 +148,7 @@
 <!-- use CDN in production mode -->
 <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 <script src="vendor/js/materialize.min.js"></script>
+<script src="vendor/js/slick.min.js"></script>
+<script src="js/home.js"></script>
 </body>
 </html>
