@@ -1,3 +1,9 @@
+@media only all and (min-width:993px){
+    .offset-l0{
+    margin-left: 0 !important;;
+    }
+}
+
 #intro-sec{
     background: url(../media/home/back1.jpg);
     -webkit-background-size:cover;
@@ -55,6 +61,7 @@
     margin: 30px auto;
     background: #fff;
     font-size: 1.4rem;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -66,6 +73,7 @@
 .big-span{
     font-size: 4.4rem;
     margin-left: 10px;
+    line-height: 4.4rem;
 }
 
 
@@ -85,10 +93,13 @@
     animation: earth-anim 3s infinite linear forwards;
 }
 #join-blocks .join-block>img{
+    -webkit-transition:0.3s;
     transition:0.3s;
+    -webkit-transform:scale(1);
     transform:scale(1);
 }
 #join-blocks .join-block>img:hover{
+    -webkit-transform:scale(1.2);
     transform:scale(1.2);
 }
 #join-blocks .join-block h4{
@@ -114,7 +125,8 @@
     display: inline-block;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    transition: 0.4s
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 
@@ -195,3 +207,72 @@ footer h6{
     0%{transform: rotate(0)}
     100%{transform:rotate(360deg)}
 }
+@-webkit-keyframes earth-anim {
+    0%{transform: rotate(0)}
+    100%{transform:rotate(360deg)}
+}
+@-moz-keyframes earth-anim {
+    0%{transform: rotate(0)}
+    100%{transform:rotate(360deg)}
+}
+
+
+    @media only all and (max-width:993px){
+    :root{
+        font-size: 14px;
+    }
+    #intro-samir{
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+    #intro-text{
+        text-align: center;
+    }
+    #tracks-title{
+        padding-top: 35px;
+    }
+    #tracks-sec .big-span{
+        display: block;
+        margin-top: 20px;
+    }
+    #join-sec h1{
+        text-align: center;
+    }
+    #join-sec h3{
+        text-align: center;
+    }
+    #join-blocks .join-block{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only all and (max-width:601px){
+    :root{
+        font-size: 13px;
+    }
+    .credits{
+        float: none;
+        text-align: center;
+    }
+    .track-block{
+        margin-top:25px;
+    }
+}
+
+@media only all and (max-width:440px){
+    .credits{
+        margin-bottom: 60px;
+    }
+    #join-sec h3{
+        margin-top: 15px;
+    }
+}
+
+@media only all and (max-width:360px){
+    #intro-sec h1{
+        font-size: 4.5rem;
+    }
+}
+

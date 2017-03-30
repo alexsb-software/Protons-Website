@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Protons</title>
     <!-- add meta tags -->
+    <meta name="viewport" content="width=device-width">
 
     <!-- use CDN in production mode -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,8 +26,23 @@
     <nav>
         <div class="nav-wrapper blue lighten-1">
             <a href="#" id="brand-logo"><img src="media/protons-logo.png"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#" data-activates="mobile-demo" id="button-collapse" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">E Learning</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>-->
+                <li>
+                    <a>Tracks </a>
+                    <ul id="sidenav-list">
+                        <li><a href="#">Programming </a></li>
+                        <li><a href="#">Robotics </a></li>
+                        <li><a href="#">Automation </a></li>
+                    </ul>
+                </li>
                 <li><a href="#">History</a></li>
                 <li><a href="#">FAQs</a></li>
                 <li><a href="#">E Learning</a></li>
@@ -37,7 +53,7 @@
     <section id="intro-sec">
         <div>
             <div class="row" id="intro-row">
-                <div class="col l4 offset-l1 m8 offset-m2"><img src="media/home/samer.png" alt="samer protons" id="intro-samir"></div>
+                <div class="col l4 offset-l1 m8 offset-m2 "><img src="media/home/samer.png" alt="samer protons" id="intro-samir"></div>
                 <div class="col l6 m12" id="intro-text">
                     <h1 class="blue-text">We are Engineering</h1>
                     <h1 class="red-text">Lovers</h1>
@@ -52,7 +68,7 @@
     </section>
     <section id="tracks-sec" class="blue">
         <div class="row" id="tracks-title">
-            <h4 class="col m8 offset-m2 center-align">We help you develop yourself in <span class="big-span"><span class="square-border">3</span> Tracks</span></h4>
+            <h4 class="col m8 offset-m2 s12 center-align">We help you develop yourself in <span class="big-span"><span class="square-border">3</span> Tracks</span></h4>
         </div>
         <div class="row">
             <div class="track-block col m4 s12 center-align center-block">
@@ -74,27 +90,27 @@
     </section>
     <section id="join-sec" class="blue-text">
         <div class="row join-title">
-            <h1 class="col m7 offset-m1 s8 offset-s2">Why to join protons ?</h1>
-            <h3 class="col m7 offset-m1 s8 offset-s2">Regardles that the <img id="small-earth" src="media/home/earth.png"> needs YOU,</h3>
+            <h1 class="col l7 offset-l1 m10 offset-m1 s12">Why to join protons ?</h1>
+            <h3 class="col l7 offset-l1 m10 offset-m1 s12">Regardles that the <img id="small-earth" src="media/home/earth.png"> needs YOU,</h3>
         </div>
         <div class="row" id="join-blocks">
-            <div class="join-block col m2 offset-m1 s12 center-align">
+            <div class="join-block col l2 offset-l1 m4 offset-m2 s12 center-align">
                 <img src="media/home/sessions.png">
                 <h4>Technical Sessions</h4>
             </div>
-            <div class="join-block col m2 s12 center-align">
+            <div class="join-block col l2 m4 s12 center-align">
                 <img src="media/home/community.png">
                 <h4>Community</h4>
             </div>
-            <div class="join-block col m2 s12 center-align">
+            <div class="join-block col l2 m4 offset-m2 offset-l0 s12 center-align">
                 <img src="media/home/workshops.png">
                 <h4>Workshops</h4>
             </div>
-            <div class="join-block col m2 s12 center-align">
+            <div class="join-block col l2 m4 s12 center-align">
                 <img src="media/home/competition.png">
                 <h4>Competition</h4>
             </div>
-            <div class="join-block col m2 s12 center-align">
+            <div class="join-block col l2 m4 offset-m4 offset-l0 s12 center-align">
                 <img src="media/home/fun.png">
                 <h4>Fun <span class="wohoo"> {WOHOO<img src="media/home/wohoo.png"> }</span></h4>
             </div>

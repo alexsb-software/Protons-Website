@@ -10,10 +10,18 @@ body{
 }
 
 /*   NAV   */
+nav{
+    height: 64px;
+}
 nav ul a{
     font-size: 1.5rem;
 }
 #brand-logo img{
     width:130px;
     margin: 7px 0 0 50px;
+}
+#sidenav-list{
+    padding-left:30px;
+    background: #ededed;
+    list-style: square black;
 }

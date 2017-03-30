@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protons Graduates</title>
+    <!-- add meta tags -->
+    <meta name="viewport" content="width=device-width">
+
+    <!-- use CDN in production mode -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/graduates.css">
+
+</head>
+<body>
+
+    <ul id="dropdown1" class="dropdown-content blue">
+        <li><a href="#" class="white-text">Programming </a></li>
+        <li><a href="#" class="white-text">Robotics </a></li>
+        <li><a href="#" class="white-text">Automation </a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper white ">
+            <a href="#" id="brand-logo"><img src="media/protons-blue.png"></a>
+            <a href="#" data-activates="mobile-demo" id="button-collapse" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#" class="blue-text">History</a></li>
+                <li><a href="#" class="blue-text">FAQs</a></li>
+                <li><a href="#" class="blue-text">E Learning</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>-->
+                <li>
+                    <a>Tracks </a>
+                    <ul id="sidenav-list">
+                        <li><a href="#">Programming </a></li>
+                        <li><a href="#">Robotics </a></li>
+                        <li><a href="#">Automation </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">E Learning</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="title-sec">
+        <div class="row">
+            <div class="col m8 offset-m2 center-align">
+                <div class="border">
+                    <h1>PROTONS<img id="grad-img" src="media/graduates/grad.png">GRADUATES</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- use CDN in production mode -->
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="vendor/js/materialize.min.js"></script>
+<script src="js/graduates.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    color:#fff;
+    background: #1abc9c;
+}
+
+#grad-img{
+    position: relative;
+    top:50px;
+}
