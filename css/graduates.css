@@ -2,8 +2,61 @@ body{
     color:#fff;
     background: #1abc9c;
 }
-
+@media only all and (min-width: 992px){
+    .offset-l0{
+        margin-left:0 !important;
+    }
+}
+#title-sec h1{
+    margin: 0;
+}
+.border{
+    height: 7px;
+    background: #fff;
+    border-radius: 5px;
+}
 #grad-img{
     position: relative;
-    top:50px;
+    top:40px;
+    left:7px;
+    width: 160px;
+}
+.year-graduates{
+    margin-top: 60px;
+}
+.year{
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+.grad{
+    margin-bottom: 15px;
+}
+.grad img{
+    width:135px;
+    border-radius: 50% 50%;
+}
+
+
+@media only all and (max-width: 992px){
+    #title-sec h1{
+        margin-top: 25px;
+    }
+    #grad-img{
+        display: block;
+        left: 0;
+        top: 0;
+        position: initial;
+        margin: 0 auto;
+    }
+    .block-on-med{
+        display: block;
+    }
+    .year{
+        text-align: center;
+    }
+}
+@media only all and (max-width: 450px){
+    #title-sec h1{
+        font-size: 3rem;
+    }
 }
