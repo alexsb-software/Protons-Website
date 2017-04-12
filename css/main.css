@@ -1,6 +1,6 @@
 @font-face {
     font-family: arc;
-    src: local('arc'), url(../fonts/Arciform.otf) format('opentype');
+    src: local('arc'), url("../fonts/Arciform.otf") format('opentype');
 }
 :root{
     font-size: 16px
@@ -23,5 +23,17 @@ nav ul a{
 #sidenav-list{
     padding-left:30px;
     background: #ededed;
-    list-style: square black;
+    list-style: square;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+footer>.row:last-child{
+    margin-bottom: 0;
+}
+footer h6{
+    font-family: sans-serif;
+    color: #000;
 }

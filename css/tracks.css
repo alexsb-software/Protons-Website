@@ -53,7 +53,9 @@ body{
 .slick-block p{
     font-size: 1.4rem
 }
-
+.slick-block img{
+    width:150px;
+}
 .track-title.active{
     -webkit-transform: rotate(0);
     transform: rotate(0);
