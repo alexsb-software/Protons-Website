@@ -263,6 +263,9 @@ body{
   #col-center .bubble{
     margin: 0 auto 350px auto;
   }
+  #timeline-sec{
+    margin-bottom: 350px;
+  }
 }
 @media only all and (min-width:1850px) {
   #col-center .bubble:first-of-type{
@@ -272,7 +275,7 @@ body{
     margin: 0 auto 400px auto;
   }
   #timeline-sec{
-    margin-bottom: 300px;
+    margin-bottom: 400px;
   }
 }
 
@@ -394,6 +397,12 @@ body{
 }
 @media only all and (min-width:1850px) {
   #col-center.active{
-    height: 2200px;
+    height: 2050px;
+  }
+}
+
+@media only all and (min-width:900px) and (max-width:1330px){
+  #col-center.active{
+    height:1450px;
   }
 }

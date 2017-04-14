@@ -1,3 +1,7 @@
+.slick-dots li button:before,.slick-prev:before, .slick-next:before, .slick-dots li.slick-active button:before{
+    color: #000;
+}
+
 @media only all and (min-width:993px){
     .offset-l0{
     margin-left: 0 !important;;

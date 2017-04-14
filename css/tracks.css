@@ -83,6 +83,10 @@ body{
         transform:scale(0.7);
         margin: 0 auto;
     }
+    .track-title.active{
+        -webkit-transform:rotate(0) scale(0.7);
+        transform:rotate(0) scale(0.7);
+    }
 }
 @media only all and (max-width: 440px) {
     :root{

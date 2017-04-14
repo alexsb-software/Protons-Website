@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Protons Tracks</title>
-    <!-- add meta tags -->
+
     <meta name="viewport" content="width=device-width">
     <meta name="theme-color" content="#2196f3">
 
-    <!-- use CDN in production mode -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/css/materialize.min.css">
-    <link rel="stylesheet" href="vendor/css/slick.css">
-    <link rel="stylesheet" href="vendor/css/slick-theme.css">
+    <!-- TODO: add description and keywords -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="IEEE AlexSB Software Development Committee">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" href="vendor/css/slick-custom.css">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/tracks.css">
@@ -22,8 +24,13 @@
     <nav>
         <div class="nav-wrapper white ">
             <a href="home.html" id="brand-logo"><img src="media/protons-blue.png"></a>
-            <a href="#" data-activates="mobile-demo" id="button-collapse" class="button-collapse blue-text"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <a href="#" data-activates="mobile-demo" id="button-collapse" class="button-collapse">
+                <div id="hamb">
+                    <span class="blue"></span>
+                    <span class="blue"></span>
+                    <span class="blue"></span>
+                </div>
+            </a>            <ul class="right hide-on-med-and-down">
                 <li><a href="tracks.html" class="blue-text">Tracks</a></li>
                 <li><a href="history.html" class="blue-text">History</a></li>
                 <li><a href="faqs.html" class="blue-text">FAQs</a></li>
@@ -248,9 +255,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
-    <script src="vendor/js/materialize.min.js"></script>
-    <script src="vendor/js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="js/tracks.js"></script>
 </body>
 
