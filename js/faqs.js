@@ -14,12 +14,12 @@ var faqs = {
 };
 
 $(document).ready(function () {
-    var cat =["Place", "Time", "Others"];
+    var cat = ["Place", "Time", "Others"];
 
     var faqsSec = document.getElementById("faqs-sec");
 
-    for(var i = 0; i<cat.length ; i++){
-        var faqsBlock  = document.createElement('div');
+    for (var i = 0; i < cat.length; i++) {
+        var faqsBlock = document.createElement('div');
 
         var head = document.createElement('h2');
         head.setAttribute('class', 'faqs-head');
@@ -31,7 +31,7 @@ $(document).ready(function () {
         ul.setAttribute('class', 'collapsible center-block');
         ul.setAttribute('data-collapsible', 'accordion');
 
-        for(var j = 0; j<faqs[cat[i]].length; j++){
+        for (var j = 0; j < faqs[cat[i]].length; j++) {
             var li = document.createElement('li');
 
             var question = document.createElement('div');
@@ -51,7 +51,4 @@ $(document).ready(function () {
         faqsBlock.appendChild(ul);
         faqsSec.appendChild(faqsBlock);
     }
-
-
 });
-

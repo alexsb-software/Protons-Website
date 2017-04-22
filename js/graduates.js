@@ -50,7 +50,7 @@ var graduates = [
     },
     {
         year: 2015,
-        data:[
+        data: [
 
         ]
     }
@@ -61,29 +61,27 @@ $(document).ready(function () {
 
     var grads = $('#grads-cont');
 
-    for(var year =0; year< graduates.length; year++){
+    for (var year = 0; year < graduates.length; year++) {
 
         var graduatesSection = document.createElement('section');
         graduatesSection.setAttribute('class', 'year-graduates');
-
-        graduatesSection.innerHTML = '<div class="row"><h2 class="col l4 offset-l1 m8 offset-m2 s12 year">' + graduates[year].year+ '</h2></div>';
+        graduatesSection.innerHTML = '<div class="row"><h2 class="col l4 offset-l1 m8 offset-m2 s12 year">' + graduates[year].year + '</h2></div>';
 
         var row = document.createElement('div');
-        row.setAttribute('class','row grad-row');
+        row.setAttribute('class', 'row grad-row');
 
-        for(var i=0; i < graduates[year].data.length; i++){
-
-            if(i%6 === 0 && i !== 0){
+        for (var i = 0; i < graduates[year].data.length; i++) {
+            if (i % 6 === 0 && i !== 0) {
                 graduatesSection.appendChild(row);
                 row = document.createElement('div');
-                row.setAttribute('class','row grad-row');
+                row.setAttribute('class', 'row grad-row');
             }
 
             var proton = document.createElement('div');
             proton.setAttribute('class', 'col l2 m4 s6 center-align center-block');
 
             var protonImg = document.createElement('img');
-            protonImg.src = graduates[year].data[i].image === ''? 'media/graduates/user.png' : graduates[year].data[i].image;
+            protonImg.src = graduates[year].data[i].image === '' ? 'media/graduates/user.png' : graduates[year].data[i].image;
 
             var protonName = document.createElement('h5');
             protonName.setAttribute('class', 'flow-text');
@@ -98,6 +96,5 @@ $(document).ready(function () {
         graduatesSection.appendChild(row);
 
         grads.append(graduatesSection)
-
     }
 });

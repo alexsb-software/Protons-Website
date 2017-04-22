@@ -2,47 +2,59 @@
     font-family: arc;
     src: local('arc'), url("../fonts/Arciform.otf") format('opentype');
 }
-:root{
+
+:root {
     font-size: 16px
 }
-body{
+
+body {
     font-family: arc, sans-serif;
 }
 
+
 /*   NAV   */
-nav{
+
+nav {
     height: 64px;
 }
-nav ul a{
+
+nav ul a {
     font-size: 1.5rem;
 }
-#brand-logo img{
-    width:130px;
+
+#brand-logo img {
+    width: 130px;
     margin: 7px 0 0 50px;
 }
-#sidenav-list{
-    padding-left:30px;
+
+#sidenav-list {
+    padding-left: 30px;
     background: #ededed;
     list-style: square;
 }
-#hamb{
-    margin-top:22px;
+
+#hamb {
+    margin-top: 22px;
 }
-#hamb span{
+
+#hamb span {
     display: block;
-    width:25px;
-    height:3px;
+    width: 25px;
+    height: 3px;
     margin: 5px auto;
 }
-footer{
+
+footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background: #fff;
 }
-footer>.row:last-child{
+
+footer>.row:last-child {
     margin-bottom: 0;
 }
-footer h6{
+
+footer h6 {
     font-family: sans-serif;
     color: #000;
 }

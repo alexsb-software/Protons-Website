@@ -1,64 +1,77 @@
-.slick-dots li button:before,.slick-prev:before, .slick-next:before, .slick-dots li.slick-active button:before{
+.slick-dots li button:before,
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
     color: #000;
 }
 
-@media only all and (min-width:993px){
-    .offset-l0{
-    margin-left: 0 !important;;
+@media only all and (min-width:993px) {
+    .offset-l0 {
+        margin-left: 0 !important;
+        ;
     }
 }
 
-#intro-sec{
+#intro-sec {
     background: url(../media/home/back1.jpg);
-    -webkit-background-size:cover;
-    background-size:cover;
-    padding-top:100px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
 }
-#intro-row{
+
+#intro-row {
     margin-bottom: 0;
 }
-#intro-samir{
-    width: 85%; 
+
+#intro-samir {
+    width: 85%;
     margin-top: 70px;
     float: left;
 }
-#intro-text{
+
+#intro-text {
     margin-top: -40px;
 }
-#intro-text h1{
+
+#intro-text h1 {
     font-size: 5rem;
 }
-.credits{
+
+.credits {
     height: 50px;
     margin-top: 35px;
     text-align: right;
     margin-bottom: 20px;
 }
-.credits h5{
+
+.credits h5 {
     display: inline-block;
     margin-right: 10px;
 }
-.credits img{
+
+.credits img {
     position: relative;
-    top:10px;
+    top: 10px;
 }
 
-
-
-#tracks-sec{
+#tracks-sec {
     color: #fff;
 }
-#tracks-title{
+
+#tracks-title {
     padding-top: 70px;
 }
-#tracks-sec .track-block img{
+
+#tracks-sec .track-block img {
     width: 55%;
 }
-#tracks-sec .track-block img:hover{
-    -webkit-animation:track-anim 0.7s;
-    animation:track-anim 0.7s;
+
+#tracks-sec .track-block img:hover {
+    -webkit-animation: track-anim 0.7s;
+    animation: track-anim 0.7s;
 }
-#tracks-btn{
+
+#tracks-btn {
     width: 170px;
     padding: 7px;
     border-radius: 8px;
@@ -70,62 +83,75 @@
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-#tracks-btn:hover{
+
+#tracks-btn:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-.big-span{
+
+.big-span {
     font-size: 4.4rem;
     margin-left: 10px;
     line-height: 4.4rem;
 }
 
-
-
-#join-sec h1{
+#join-sec h1 {
     font-size: 5rem;
 }
-#join-sec h3{
+
+#join-sec h3 {
     font-size: 2.3rem;
     margin-top: -20px;
 }
-#small-earth{
+
+#small-earth {
     width: 60px;
     position: relative;
-    top:15px;
+    top: 15px;
     -webkit-animation: earth-anim 3s infinite linear forwards;
     animation: earth-anim 3s infinite linear forwards;
 }
-#join-blocks .join-block>img{
-    -webkit-transition:0.3s;
-    transition:0.3s;
-    -webkit-transform:scale(1);
-    transform:scale(1);
+
+#join-blocks .join-block>img {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
-#join-blocks .join-block>img:hover{
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
+
+#join-blocks .join-block>img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
-#join-blocks .join-block h4{
+
+#join-blocks .join-block h4 {
     font-size: 1.75rem;
 }
-#join-blocks{
+
+#join-blocks {
     margin: 80px auto;
 }
-.wohoo{font-size: 1.3rem;}
-.wohoo img{
-    width:30px;
-    position: relative;
-    top:10px;
+
+.wohoo {
+    font-size: 1.3rem;
 }
-.join-line:hover #flip{
+
+.wohoo img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.join-line:hover #flip {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
-.join-line{
+
+.join-line {
     margin-bottom: 40px;
 }
-#flip{
+
+#flip {
     display: inline-block;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
@@ -133,149 +159,159 @@
     transition: 0.4s;
 }
 
-
-
-.slick-cont{
+.slick-cont {
     padding: 30px;
 }
-#slick p{
+
+#slick p {
     width: 70%;
     font-size: 1.1rem;
 }
-#slick .slick-block img{
-    width:100px;
+
+#slick .slick-block img {
+    width: 100px;
     border-radius: 50%;
 }
 
-
-
-
-
-@keyframes track-anim{
-    0%{
+@keyframes track-anim {
+    0% {
         -webkit-transform: rotateZ(0deg);
         transform: rotateZ(0deg);
     }
-    35%{
+    35% {
         -webkit-transform: rotateZ(30deg);
         transform: rotateZ(30deg);
     }
-    70%{
+    70% {
         -webkit-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
     }
-    100%{
+    100% {
         -webkit-transform: rotateZ(0);
         transform: rotateZ(0);
     }
 }
-@-webkit-keyframes track-anim{
-    0%{
+
+@-webkit-keyframes track-anim {
+    0% {
         -webkit-transform: rotateZ(0deg);
         transform: rotateZ(0deg);
     }
-    35%{
+    35% {
         -webkit-transform: rotateZ(30deg);
         transform: rotateZ(30deg);
     }
-    70%{
+    70% {
         -webkit-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
     }
-    100%{
+    100% {
         -webkit-transform: rotateZ(0);
         transform: rotateZ(0);
     }
 }
-@-moz-keyframes track-anim{
-    0%{
+
+@-moz-keyframes track-anim {
+    0% {
         -webkit-transform: rotateZ(0deg);
         transform: rotateZ(0deg);
     }
-    35%{
+    35% {
         -webkit-transform: rotateZ(30deg);
         transform: rotateZ(30deg);
     }
-    70%{
+    70% {
         -webkit-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
     }
-    100%{
+    100% {
         -webkit-transform: rotateZ(0);
         transform: rotateZ(0);
     }
 }
 
 @keyframes earth-anim {
-    0%{transform: rotate(0)}
-    100%{transform:rotate(360deg)}
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
+
 @-webkit-keyframes earth-anim {
-    0%{transform: rotate(0)}
-    100%{transform:rotate(360deg)}
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
+
 @-moz-keyframes earth-anim {
-    0%{transform: rotate(0)}
-    100%{transform:rotate(360deg)}
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
 
-
-    @media only all and (max-width:993px){
-    :root{
+@media only all and (max-width:993px) {
+     :root {
         font-size: 14px;
     }
-    #intro-samir{
+    #intro-samir {
         float: none;
         display: block;
         margin: 20px auto;
     }
-    #intro-text{
+    #intro-text {
         text-align: center;
     }
-    #tracks-title{
+    #tracks-title {
         padding-top: 35px;
     }
-    #tracks-sec .big-span{
+    #tracks-sec .big-span {
         display: block;
         margin-top: 20px;
     }
-    #join-sec h1{
+    #join-sec h1 {
         text-align: center;
     }
-    #join-sec h3{
+    #join-sec h3 {
         text-align: center;
     }
-    #join-blocks .join-block{
+    #join-blocks .join-block {
         margin-top: 15px;
         margin-bottom: 15px;
     }
 }
 
-@media only all and (max-width:601px){
-    :root{
+@media only all and (max-width:601px) {
+     :root {
         font-size: 13px;
     }
-    .credits{
+    .credits {
         float: none;
         text-align: center;
     }
-    .track-block{
-        margin-top:25px;
+    .track-block {
+        margin-top: 25px;
     }
 }
 
-@media only all and (max-width:440px){
-    .credits{
+@media only all and (max-width:440px) {
+    .credits {
         margin-bottom: 60px;
     }
-    #join-sec h3{
+    #join-sec h3 {
         margin-top: 15px;
     }
 }
 
-@media only all and (max-width:360px){
-    #intro-sec h1{
+@media only all and (max-width:360px) {
+    #intro-sec h1 {
         font-size: 4.5rem;
     }
 }
-
