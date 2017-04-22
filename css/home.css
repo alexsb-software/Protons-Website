@@ -143,6 +143,7 @@
     font-size: 1.1rem;
 }
 #slick .slick-block img{
+    width:100px;
     border-radius: 50%;
 }
 
