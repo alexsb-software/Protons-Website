@@ -35,16 +35,15 @@ body {
     margin-bottom: 0;
 }
 
-.grad {
-    margin-bottom: 15px;
-}
 
 .grad img {
     width: 135px;
     border-radius: 50% 50%;
 }
 
-.grad h2 {}
+.grad h5 {
+    height:130px;
+}
 
 @media only all and (max-width: 992px) {
     #title-sec h1 {

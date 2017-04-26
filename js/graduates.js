@@ -78,7 +78,7 @@ $(document).ready(function () {
             }
 
             var proton = document.createElement('div');
-            proton.setAttribute('class', 'col l2 m4 s6 center-align center-block');
+            proton.setAttribute('class', 'col l2 m4 s6 center-align center-block grad');
 
             var protonImg = document.createElement('img');
             protonImg.src = graduates[year].data[i].image === '' ? 'media/graduates/user.png' : graduates[year].data[i].image;
