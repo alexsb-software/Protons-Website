@@ -5,15 +5,18 @@ $(document).ready(function () {
     $('#button-collapse').sideNav();
     $('#slick1').slick({
         dots: true,
-        autoplay: true
+        autoplay: true,
+        autoplaySpeed: 6000
     });
     $('#slick2').slick({
         dots: true,
-        autoplay: true
+        autoplay: true,
+        autoplaySpeed: 6000
     });
     $('#slick3').slick({
         dots: true,
-        autoplay: true
+        autoplay: true,
+        autoplaySpeed: 6000
     });
     var prog = $("#prog-title");
     var robo = $("#robotics-title");
