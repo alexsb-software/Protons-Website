@@ -1,6 +1,6 @@
 var faqs = {
     "Place": [
-        { question: 'Where’re the sessions going to be at ?', answer: 'This year we are working at Electra Educational Center, click <a href="https://goo.gl/maps/qzuqk7YRtJN2">here</a> for directions' }
+        { question: 'Where’re the sessions going to be at ?', answer: 'This year we are working at Electra Educational Center, click <a href="https://goo.gl/maps/qzuqk7YRtJN2" target="_blank">here</a> for directions' }
     ],
     "Time": [
         { question: 'When can I apply ?', answer: 'We hold the applications each year in the period starting from the mid year vacation till the first week of the second term' },
@@ -13,8 +13,8 @@ var faqs = {
         { question: 'When do we finish the program ?', answer: 'Usually by late August' },
     ],
     "Others": [
-        { question: 'What is Protons ?', answer: 'Protons is a program organized by <a href="http://alexsb.org/">IEEE AlexSB</a>, it targets school students in preparatory and secondary stages with different backgrounds. It mainly aims to raise the participants’ knowledge, let them learn in a motivational atmosphere and help them discover their abilities and inner motive' },
-        { question: 'I want to know more about each track', answer: 'Check out this <a href="tracks.html">page</a> for a description of each track' },
+        { question: 'What is Protons ?', answer: 'Protons is a program organized by <a href="http://alexsb.org/" target="_blank">IEEE AlexSB</a>, it targets school students in preparatory and secondary stages with different backgrounds. It mainly aims to raise the participants’ knowledge, let them learn in a motivational atmosphere and help them discover their abilities and inner motive' },
+        { question: 'I want to know more about each track', answer: 'Check out this <a href="tracks.html" target="_blank">page</a> for a description of each track' },
         // { question: 'What would the final project be like ?', answer: 'Changes each year but we could give examples/photos of the previous year\'s projects as illustrations' },
         { question: 'What will I gain from joining protons other than the technical knowledge ?', answer: 'The program focuses on the non-technical skills as much as the technical ones, through workshops that develop the participants’ communication, teamwork, time management, leadership and presentation skills' },
         { question: 'How much money will it cost ?', answer: 'It’s a free program but in Robotics and Automation you pay for some of the components, so that you’d be able to implement what you take, at home and do the assignments' },
